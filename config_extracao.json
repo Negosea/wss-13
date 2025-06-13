@@ -1,0 +1,14 @@
+{
+  "base_url": "https://www.construcode.com.br",
+  "tipos_plantas": {
+    "ARQUITETONICA": ["arquitet", "planta baixa", "fachada"],
+    "ESTRUTURAL": ["estrutur", "armação", "pilar", "viga"],
+    "ELETRICA": ["elétric", "fiação", "quadro"],
+    "HIDRAULICA": ["hidráulic", "água", "esgoto"]
+  },
+  "download": {
+    "delay_segundos": 2,
+    "tentativas": 3,
+    "timeout": 30
+  }
+}

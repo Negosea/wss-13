@@ -1,0 +1,155 @@
+{
+  "versao": "1.0.0",
+  "ultima_atualizacao": "2024-12-11",
+  "tipos_plantas": {
+    "arquitetonica": {
+      "nome": "Planta Arquitetônica",
+      "descricao": "Planta com layout de ambientes, dimensões e distribuição espacial",
+      "palavras_chave": [
+        "planta baixa", "arquitetônica", "layout", "ambientes",
+        "área", "m²", "metros quadrados", "pavimento", "térreo"
+      ],
+      "padroes_regex": {
+        "tipo": "(?i)(planta\\s*(baixa|arquitet[ôo]nica)|layout|distribui[çc][ãa]o)",
+        "area": "(\\d+[,.]?\\d*)\\s*m[²2]",
+        "dimensao": "(\\d+[,.]?\\d*)\\s*[xX]\\s*(\\d+[,.]?\\d*)\\s*(?:m|metros)?",
+        "ambiente": "(?i)(sala|cozinha|quarto|su[íi]te|banheiro|wc|varanda|[áa]rea|garagem|escrit[óo]rio)"
+      },
+      "validacoes": {
+        "min_ambientes": 1,
+        "max_ambientes": 50,
+        "area_minima_m2": 20,
+        "area_maxima_m2": 5000
+      },
+      "normas_tecnicas": ["NBR 6492", "NBR 13532"]
+    },
+    "estrutural": {
+      "nome": "Planta Estrutural",
+      "descricao": "Planta com elementos estruturais como pilares, vigas e lajes",
+      "palavras_chave": [
+        "estrutural", "pilar", "viga", "laje", "fundação",
+        "concreto", "armadura", "fck", "aço", "ca-50", "ca-60"
+      ],
+      "padroes_regex": {
+        "tipo": "(?i)(planta\\s*estrutural|estrutura|funda[çc][ãa]o)",
+        "pilar": "(?i)P\\d+|pilar\\s*\\d+",
+        "viga": "(?i)V\\d+|viga\\s*\\d+",
+        "laje": "(?i)L\\d+|laje\\s*\\d+",
+        "concreto": "(?i)fck\\s*=\\?\\s*(\\d+)\\s*MPa",
+        "aco": "(?i)CA-?(50|60)|a[çc]o\\s*CA\\s*(50|60)"
+      },
+      "validacoes": {
+        "fck_minimo": 20,
+        "fck_maximo": 50,
+        "min_elementos": 5
+      },
+      "normas_tecnicas": ["NBR 6118", "NBR 14931", "NBR 6120"]
+    },
+    "eletrica": {
+      "nome": "Planta Elétrica",
+      "descricao": "Planta com instalações elétricas, pontos de luz e tomadas",
+      "palavras_chave": [
+        "elétrica", "tomada", "interruptor", "quadro", "disjuntor",
+        "iluminação", "circuito", "condutor", "eletroduto", "watts"
+      ],
+      "padroes_regex": {
+        "tipo": "(?i)(planta\\s*el[ée]trica|instala[çc][ãa]o\\s*el[ée]trica)",
+        "tomada": "(?i)tomada|TUG|TUE",
+        "iluminacao": "(?i)ponto\\s*de\\s*luz|lumin[áa]ria|l[âa]mpada",
+        "quadro": "(?i)QD[GFL]?|quadro\\s*(geral|for[çc]a|luz)",
+        "circuito": "(?i)circuito\\s*\\d+|C\\d+",
+        "potencia": "(\\d+)\\s*[Ww]atts?"
+      },
+      "validacoes": {
+        "tensao_residencial": [127, 220],
+        "min_circuitos": 3,
+        "max_circuitos": 50
+      },
+      "normas_tecnicas": ["NBR 5410", "NBR 5419", "NBR 14136"]
+    },
+    "hidraulica": {
+      "nome": "Planta Hidráulica",
+      "descricao": "Planta com instalações hidráulicas e sanitárias",
+      "palavras_chave": [
+        "hidráulica", "água fria", "água quente", "esgoto", "tubulação",
+        "registro", "válvula", "caixa d'água", "pvc", "ppr"
+      ],
+      "padroes_regex": {
+        "tipo": "(?i)(planta\\s*hidr[áa]ulica|instala[çc][ãa]o\\s*hidr[áa]ulica)",
+        "tubulacao": "(?i)tub(o|ula[çc][ãa]o)\\s*(\\d+)\\s*mm",
+        "agua_fria": "(?i)[áa]gua\\s*fria|AF",
+        "agua_quente": "(?i)[áa]gua\\s*quente|AQ",
+        "esgoto": "(?i)esgoto|ES",
+        "material": "(?i)(PVC|PPR|CPVC|cobre)"
+      },
+      "validacoes": {
+        "diametros_mm": [20, 25, 32, 40, 50, 60, 75, 100],
+        "pressao_minima_mca": 10,
+        "pressao_maxima_mca": 40
+      },
+      "normas_tecnicas": ["NBR 5626", "NBR 8160", "NBR 7198"]
+    },
+    "layout": {
+      "nome": "Layout/Decoração",
+      "descricao": "Planta com disposição de móveis e elementos decorativos",
+      "palavras_chave": [
+        "layout", "mobiliário", "decoração", "móveis", "design",
+        "interior", "ambientação", "sofá", "mesa", "cama"
+      ],
+      "padroes_regex": {
+        "tipo": "(?i)(layout|decora[çc][ãa]o|mobili[áa]rio|design\\s*interior)",
+        "movel": "(?i)(sof[áa]|mesa|cama|arm[áa]rio|cadeira|estante)",
+        "medida_movel": "(\\d+)\\s*[xX]\\s*(\\d+)\\s*(?:cm|m)"
+      },
+      "validacoes": {
+        "min_moveis": 1,
+        "max_moveis": 100
+      },
+      "normas_tecnicas": ["NBR 15575"]
+    },
+    "detalhamento": {
+      "nome": "Detalhamento Técnico",
+      "descricao": "Detalhes construtivos específicos e ampliações",
+      "palavras_chave": [
+        "detalhe", "corte", "ampliação", "esquadria", "perfil",
+        "seção", "vista", "escala", "cotas"
+      ],
+      "padroes_regex": {
+        "tipo": "(?i)(detalhe|corte|amplia[çc][ãa]o|se[çc][ãa]o)",
+        "escala": "(?i)escala\\s*1[:/](\\d+)",
+        "cota": "(\\d+[,.]?\\d*)\\s*(?:mm|cm|m)",
+        "referencia": "(?i)(ver\\s*detalhe|conforme\\s*detalhe)\\s*\\d+"
+      },
+      "validacoes": {
+        "escalas_validas": [1, 2, 5, 10, 20, 25, 50, 100],
+        "min_cotas": 2
+      },
+      "normas_tecnicas": ["NBR 6492", "NBR 8196", "NBR 8403"]
+    }
+  },
+  "ambientes_validos": [
+    "SALA", "SALA DE ESTAR", "SALA DE JANTAR", "SALA DE TV",
+    "COZINHA", "COZINHA AMERICANA", "COPA",
+    "QUARTO", "SUÍTE", "SUÍTE MASTER", "DORMITÓRIO",
+    "BANHEIRO", "WC", "LAVABO", "BANHEIRO SOCIAL", "BANHEIRO SUÍTE",
+    "VARANDA", "SACADA", "TERRAÇO", "VARANDA GOURMET",
+    "ÁREA DE SERVIÇO", "LAVANDERIA", "DESPENSA",
+    "GARAGEM", "VAGA", "ESTACIONAMENTO",
+    "ESCRITÓRIO", "HOME OFFICE", "ESTÚDIO",
+    "CLOSET", "VESTIDOR", "ROUPEIRO",
+    "HALL", "CORREDOR", "CIRCULAÇÃO", "ENTRADA",
+    "CHURRASQUEIRA", "ESPAÇO GOURMET",
+    "PISCINA", "DECK", "SOLARIUM",
+    "JARDIM", "QUINTAL", "ÁREA EXTERNA",
+    "SÓTÃO", "PORÃO", "ADEGA",
+    "SALA DE JOGOS", "BRINQUEDOTECA", "CINEMA"
+  ],
+  "configuracoes_gerais": {
+    "idioma": "pt-BR",
+    "encoding": "utf-8",
+    "case_sensitive": false,
+    "remover_acentos": true,
+    "normalizar_espacos": true,
+    "confianca_minima": 0.7
+  }
+}

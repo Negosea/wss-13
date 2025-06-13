@@ -1,0 +1,47 @@
+[H[2J[3J=====================================================
+   FRAMEWORK CONSTRUÇÃO CIVIL - PIPELINE v1.0
+=====================================================
+
+[0;32m[INFO][0m Processando arquivo: /home/sea/Downloads/8f9d7e124e76edd8d81ee73a89c6a51da31e6420a60bc5d5de51c4c4bcdfa8b36a10d0cb88b7ab521602993cd9ee6f50b48df4efed0adb8b1e22eeea3063bbaa.pdf
+[0;32m[INFO][0m Tipo detectado: .pdf
+[0;32m[INFO][0m Convertendo PDF para TXT...
+Syntax Warning: Invalid Font Weight
+[0;32m[INFO][0m Conversão concluída: /home/sea/projetos/framework-construcao/dados/temp/8f9d7e124e76edd8d81ee73a89c6a51da31e6420a60bc5d5de51c4c4bcdfa8b36a10d0cb88b7ab521602993cd9ee6f50b48df4efed0adb8b1e22eeea3063bbaa.txt
+
+--- Preview do conteúdo (primeiras 5 linhas) ---
+Nivelamento de
+
+Matemática
+
+EQUAÇÕES E SISTEMAS
+...
+
+[0;32m[INFO][0m Preparando arquivo para processamento...
+
+[0;32m[INFO][0m Executando SPLIT do memorial...
+[OK] Seção salva: /home/sea/projetos/framework-construcao/scripts/../dados/saidas_split/01_1_objetivo\nconteudo_de_teste\n2_estrutura\ncontinuando.txt
+
+Total de seções extraídas: 1 (veja em dados/saidas_split/)
+[0;32m[INFO][0m Split concluído com sucesso!
+[0;32m[INFO][0m Arquivos gerados no split: 1
+
+[0;32m[INFO][0m Executando MERGE dos arquivos...
+[OK] Memorial unificado salvo em: /home/sea/projetos/framework-construcao/scripts/../dados/memorial_unificado.txt
+Total de seções incluídas: 1
+[0;32m[INFO][0m Merge concluído com sucesso!
+[0;32m[INFO][0m Arquivo unificado criado com 4 linhas
+
+=====================================================
+[0;32mPIPELINE CONCLUÍDO COM SUCESSO![0m
+=====================================================
+
+📁 Arquivos gerados:
+   - Split: /home/sea/projetos/framework-construcao/dados/saidas_split/
+   - Unificado: /home/sea/projetos/framework-construcao/dados/memorial_unificado.txt
+
+📊 Estatísticas:
+   - Arquivo original: 8f9d7e124e76edd8d81ee73a89c6a51da31e6420a60bc5d5de51c4c4bcdfa8b36a10d0cb88b7ab521602993cd9ee6f50b48df4efed0adb8b1e22eeea3063bbaa.pdf
+   - Partes geradas: 1
+   - Linhas no arquivo final: 4
+
+Deseja limpar arquivos temporários? (s/N) 

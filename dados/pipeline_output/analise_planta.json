@@ -1,0 +1,18 @@
+{
+  "resumo": {
+    "total_ambientes": 0,
+    "area_total_identificada": null,
+    "num_quartos": 0,
+    "num_banheiros": 0
+  },
+  "ambientes": [],
+  "medidas_encontradas": [
+    9.0,
+    19.0
+  ],
+  "estatisticas": {
+    "total_medidas": 2,
+    "menor_medida": 9.0,
+    "maior_medida": 19.0
+  }
+}

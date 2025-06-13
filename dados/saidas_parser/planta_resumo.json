@@ -1,0 +1,18 @@
+{
+  "tipo": "arquitetonica",
+  "proposito": "Definir layout e distribuição dos ambientes",
+  "informacoes_relevantes": {
+    "ambientes": [
+      "ÁREA",
+      "SUÍTE",
+      "COZINHA",
+      "VARANDA"
+    ]
+  },
+  "checklist": [
+    "✓ Dimensionamento de ambientes",
+    "✓ Fluxo de circulação",
+    "✓ Aproveitamento de espaço",
+    "✓ 4 ambientes identificados"
+  ]
+}

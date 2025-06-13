@@ -1,0 +1,89 @@
+{'linha': 'E E', 'ambientes': ['E E'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'Es A — o AB', 'ambientes': [' AB'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'DESPENSA | | DESPENSA fassa» -', 'ambientes': ['DESPENSA', 'DESPENSA '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '== De A, = a E Do BLOCO 1 E', 'ambientes': [' E ', ' BLOCO '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'AE a e O RP heaco Ê', 'ambientes': ['AE ', ' O RP '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'col HIS, 1ãgm | 25 [| [1] 5 min. ) MEM] BLOCO 2 =', 'ambientes': [' HIS', 'MEM', 'BLOCO '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'ORA! guie Il o aE-tsê NEELO a A', 'ambientes': ['ORA', ' NEELO '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'oSPER aos RE O, oco 3 BLOCOS A', 'ambientes': [' RE O', ' BLOCOS A'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'E] “ES E Emo novos Loco s o é', 'ambientes': ['ES E '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '[oi LE EQ 16] Ee', 'ambientes': [' LE EQ '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'º I | TR CR O i | 2 Ea', 'ambientes': ['TR CR O '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '[SERVIÇO E BH 01/02 [so ] (| o vÉRE " |] [SERVIÇO E BH 01/02', 'ambientes': [' E BH ', ' E BH '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'E E ÁREA DE | | | ÁREADE = E', 'ambientes': ['E E ', ' DE'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'axustão U SERVO r —sERtiço ) POREADA', 'ambientes': [' U SERVO ', 'POREADA'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'IN | d I l ESCADA Í oq A', 'ambientes': [' I ', ' ESCADA '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'a] a I I I Il q |', 'ambientes': [' I I I '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'E pretemamaadpo pofa game o & EN ad O + ge | | o 2 [2 esa E, ES NOTAS', 'ambientes': ['EN ', 'ES NOTAS'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'H = | EE — | Vim e DAN [—pm o] r A', 'ambientes': [' DAN'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'É Tao + EH a o" , É N - CHAMINE DE 280"', 'ambientes': ['EH ', 'CHAMINE DE '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'Leoa CONS ÇIRS [in À | |', 'ambientes': [' CONS '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '[E 3 [| === FR COD DPENAPESARER. uh N dh Ad AEIARSSaE => Z ———| [1 6 (3 PERMANENTE DE NO MIN, 600cm2', 'ambientes': ['FR COD DPENAPESARER', ' N ', ' PERMANENTE DE NO MIN'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '= [Ro | N CE E Eis E cd a po CL] = D = GARANTIR VENTILAÇÃO INFERIOR (aba do Som)', 'ambientes': ['N CE E ', ' E ', ' CL', 'GARANTIR ', ' INFERIOR'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| $ É |. : Ê 1 E B | TI PERMANENTE DE NO MIN. 200cmZ', 'ambientes': [' E B', 'TI PERMANENTE DE NO MIN'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| mh [a 51 18 ê O COZINHA É > 8 COZINHA Ed] lho 1 I', 'ambientes': [' O COZINHA ', ' COZINHA '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'l [ ER | N Lt E 18 x] q ” q im 8] Le pa e] I (8) - GARANTIR VENTILAÇÃO PERMANENTE', 'ambientes': [' E ', 'GARANTIR ', ' PERMANENTE'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| ! | E r=—— So [CE JE É O TiRRE a! 005 FE ! e] MIN. DE 2000m2 DE ÁREA LIVRE NO SEPTO', 'ambientes': ['CE JE ', ' O ', ' FE', 'MIN', 'DE ', ' DE ', ' LIVRE NO SEPTO'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'Eri dq Lda T E —', 'ambientes': [' T E'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '! RANDAT. | , | a CIRC. SERVIÇO 4 — \' | / | T (E) -O TERMINAL TIPO "T\' DA CHAMINÉ DEVERÁ', 'ambientes': ['RANDAT', ' CIRC', 'O TERMINAL TIPO', 'DA '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'VA | ; === rã SL Sib IUE PRO CONIBAPISO o mm St; TUR, PRLO CONTRARISO SJ mo N | | TER AFASTAMENTO DE NO MÍNIMO 10cm', 'ambientes': [' SL ', ' IUE PRO CONIBAPISO ', 'TUR', 'PRLO CONTRARISO SJ ', 'TER AFASTAMENTO DE NO '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'PASSA to "Ig DA FACHADA DO PRÉDIO', 'ambientes': ['PASSA ', ' DA FACHADA DO '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| ! 1 1 PORTA HERMETICAMENTE 1 r INST. INT. ERMÁRIA mn : o + | vARANçA =', 'ambientes': [' PORTA HERMETICAMENTE ', ' INST', 'INT'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'em DE', 'ambientes': [' DE'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| I f , N RA Neco SEADE l RT | | (es; | ll f I - MIN. DE 106m DE AFASTAMENTO ENTRE A LATERAL', 'ambientes': ['N RA ', ' SEADE ', ' RT', 'MIN', 'DE ', ' DE AFASTAMENTO ENTRE A LATERAL'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| SUÍTE 03 | SUÍTE 02 4 IL 4 1 T 1 = E. E” E TI 1 L 4 A SUÍTE 02 | SUITE 03 I DOS AQUECEDORES E A PAREDE/AQUECEDOR', 'ambientes': [' IL ', ' T ', 'E TI ', ' L ', ' A ', 'SUITE ', ' I DOS AQUECEDORES E A PAREDE', 'AQUECEDOR'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'l | Mp CH ADM . o (4) im | | I (7 “MIN. DE f8om DE AFASTAMENTO ENTRE A LATERAL', 'ambientes': [' CH ADM', 'MIN', 'DE ', ' DE AFASTAMENTO ENTRE A LATERAL'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'l ! | PS RED AR SN | I DOS TERMINAIS DA CHAMINÉ', 'ambientes': ['PS RED AR SN', 'I DOS TERMINAIS DA '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| “ cê IE q SO o', 'ambientes': [' IE ', ' SO '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| 7 7 poco E “ão o 7 7 | O PONTO DE GÁS PODERÁ FICAR NO MÁXIMO', 'ambientes': ['O PONTO DE ', ' FICAR NO '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| — — E 4 ã 1 1 — I 40cm ATRÁS DO FOGÃO E LOCAL DE FÁCIL ACESSO', 'ambientes': [' DO ', ' E LOCAL DE ', ' ACESSO'], 'areas_m2': [], 'dimensoes': []}
+{'linha': "a [eo L | 1 | a Na E ko | SE - E 7 | ' FP EM CASO DE FECHAMENTO DE BANCADA, PREVER NIÇHO", 'ambientes': [' E ', 'FP EM CASO DE FECHAMENTO DE BANCADA', 'PREVER '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'il 1 [TT N PM | lt 7 L', 'ambientes': ['TT N PM'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'FE FE . — . = h N [1] dos Fm = TONRO NÃO PEA Ber ESA) A', 'ambientes': ['FE FE', 'TONRO ', ' PEA ', ' ESA'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'g q | E o R a OCH o n ES, | Y g', 'ambientes': [' R ', ' OCH ', ' ES'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| É) E) Ef LEE TT r | [A [Ao 4 E E | || - GARANTIR VENTILAÇÃO PERMANENTE MIN. DE 120cm2', 'ambientes': [' LEE TT ', ' E E', 'GARANTIR ', ' PERMANENTE MIN', 'DE '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '/ [| É I | | l Q N DE ÁREA LIVRE DO SEPTO PARA ÁREA EXTERNA', 'ambientes': [' Q N DE ', ' LIVRE DO SEPTO PARA ', ' EXTERNA'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '1 ng 1 Ç Fr 7 A 1 a 1 L e', 'ambientes': [' A ', ' L '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| er | | LE == == E=1T | | PS 4 )', 'ambientes': ['PS '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '[7] ES = L G- COLUNA 01 COLUNA 02 5 E a ) EA — PROJETOS DE INS TALAÇÕES LTDA', 'ambientes': ['L G', 'COLUNA ', ' COLUNA ', ' E ', 'PROJETOS DE INS ', ' LTDA'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'LEGENDA Av. Olegário Maciel, 414/301- Barra da Tijuca — Rio de Janeiro/RJ] - CEP 22621-200]', 'ambientes': ['LEGENDA ', 'CEP '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '1 E E =] Ú o Tel (21) 2491-9557/ Fax. (21) 2491-5827 — E-mail: contatoBaqprojetos.com br', 'ambientes': [' E E'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '2027 2027 B PELO CONTRAPISO', 'ambientes': [' B PELO CONTRAPISO'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| CLOSET 96 SAI r o r , VE EN CLOSET I', 'ambientes': ['CLOSET ', ' SAI ', 'VE EN CLOSET I'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| 1 CJ | | | Operações Centralizadas — Novas Construções', 'ambientes': [' CJ'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'E ESTAR/ JANTAR ESTAR / JANTAR [LDA RR', 'ambientes': ['E ESTAR', 'JANTAR ESTAR', 'JANTAR', 'LDA RR'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'À | | | IDENTIFICAÇÃO DO APARELHO Projeto Aprovado em: /', 'ambientes': [' DO APARELHO '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '=== lurre MASTER jure MASTER TF E CONSUMO CORRESPONDENTE', 'ambientes': [' MASTER ', ' MASTER TF E CONSUMO CORRESPONDENTE'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| | L 3 U J | | EM KCAL/MIN.', 'ambientes': [' U J', 'EM KCAL', 'MIN'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| au TEJO TR] o T [|]', 'ambientes': [' TEJO TR'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| | creo q | Do] ES Do] | || [0e55757723 | EUSE NOS FUROS E AFASTAENTO DAS CHANNES DS AG]', 'ambientes': ['ES ', 'EUSE NOS FUROS E AFASTAENTO DAS CHANNES DS AG'], 'areas_m2': [], 'dimensoes': []}
+{'linha': "NDA I VARA ' [ilfozlo9/11/22| Revisão GERAL O |orrrersON |", 'ambientes': ['NDA I VARA', ' GERAL O'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| o H | 7 VARANDA ASS VARANDA E | ht - o | [los [08/08/22 [AJUSTE NO CARIMBO NATURGY AorrrersoN | Dm Do', 'ambientes': [' VARANDA ASS VARANDA E', 'AJUSTE NO CARIMBO NATURGY '], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| ==> [[[==—— [E J JA Lo P=— | |" Ud [Jos [25/05/22 | INDICAÇÃO DE JANELA CONF. EXIG. NATURGY | [JEFFERSON | assinatura e carimbo assinatura e carimbo', 'ambientes': ['E J JA ', ' DE JANELA CONF', 'EXIG', 'NATURGY', 'JEFFERSON'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| ponto neo for (ar ora) | | Po nono foro tm ct) | || [04 [10/05/22 | inpicação DE COLUNAS E VENT. INF. NA COZINHA — [JEFFERSON |', 'ambientes': [' DE COLUNAS E VENT', 'INF', 'NA COZINHA', 'JEFFERSON'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'O DEITIDODODODODOCODODICIDODODIDODODIDODOcIcODOcIcIcocOcococococIcoc=cIcIcDc=cD== Al los [17/03/22 | MODIFICAÇÃO NO CARIMBO (NOMENCLATURA ARQUIVO) | DANIELLE |', 'ambientes': [' NO CARIMBO', 'NOMENCLATURA ARQUIVO', 'DANIELLE'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '[l02 [08/03/22 [AJUSTE CONFORME CARIMBO NATURGY | uEFFERSON |', 'ambientes': ['AJUSTE CONFORME CARIMBO NATURGY'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '| 00 | 31/08/21 | EMISSÃO INICIAL O seres |', 'ambientes': [' INICIAL O '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'DATA DESCRIÇÃO PROJETISTA', 'ambientes': ['DATA ', ' PROJETISTA'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'PRIETO RE | OCEANA GOLF |', 'ambientes': ['PRIETO RE', 'OCEANA GOLF'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'Rio de Janeiro - RJ - CEP: 22621-200', 'ambientes': ['CEP'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'Dr rentes RD eder | AVENDA 1 PAR 11026, Neem', 'ambientes': [' RD ', 'AVENDA ', ' PAR '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'aprajetos.com. BARRA DA TIJUCA — RIO DE JANEIRO — Ru.', 'ambientes': ['BARRA DA TIJUCA', 'RIO DE JANEIRO'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'OCEANA GOLF e', 'ambientes': ['OCEANA GOLF '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'SPE GOLF 2 EMPREENDIMENTOS IMOBILIARIOS LTDA', 'ambientes': ['SPE GOLF ', ' EMPREENDIMENTOS IMOBILIARIOS LTDA'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'qu opa FORM', 'ambientes': [' FORM'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'AVENIDA PROJETADA "1", LOTE 02, QUADRA "C" DO PAL 49360 PROPRIETÁRIO', 'ambientes': ['AVENIDA PROJETADA', 'LOTE ', 'QUADRA', 'DO PAL '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'BARRA DA TIJUCA - RIO DE JANEIRO - RJ', 'ambientes': ['BARRA DA TIJUCA', 'RIO DE JANEIRO'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'SPE GOLF 2 EMPREENDIMENTOS IMOBILIARIOS LTDA', 'ambientes': ['SPE GOLF ', ' EMPREENDIMENTOS IMOBILIARIOS LTDA'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'INS TALAÇÕES DE GÁS CONSTRUTOR:', 'ambientes': ['INS ', ' DE ', ' CONSTRUTOR'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'PROJETO EXECUTIVO', 'ambientes': ['PROJETO EXECUTIVO'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'INSTALADOR Rodrigo Soares Brenha', 'ambientes': ['INSTALADOR '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'Ha] CRANCHA E AUTOR DO PROJETO: Inscrição Naturgy 1-95501', 'ambientes': ['CRANCHA E AUTOR DO PROJETO'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'o PLANTA BAIXA', 'ambientes': [' PLANTA BAIXA'], 'areas_m2': [], 'dimensoes': []}
+{'linha': '[EJLoro) BLOCOS 1F 6 GAS DO ão EEE', 'ambientes': ['BLOCOS ', ' GAS DO ', ' EEE'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'nos RESP. P/EXECUÇÃO: Inscrição Naturgy 2-1', 'ambientes': [' RESP'], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'TIPO (1º AO 20º PAVIMENTO) 0010', 'ambientes': ['TIPO', ' AO ', ' PAVIMENTO'], 'areas_m2': [], 'dimensoes': []}
+{'linha': "ESCALA ARQUIVO REVISÃO '", 'ambientes': ['ESCALA ARQUIVO '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'case) 150 | AO37-0010-SGAS-PE-T16-TIP-PLA-RO8 INSTALAÇÃO DE GÁS', 'ambientes': ['SGAS', 'TIP', 'PLA', ' DE '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'Estar DATA PROJETISTA VERIFICADO APROVADO R08 TIPO — 1º AO 20º PAVIMENTO (BLOCOS 01 E 06)', 'ambientes': [' DATA PROJETISTA VERIFICADO APROVADO ', ' TIPO', ' AO ', ' PAVIMENTO', 'BLOCOS ', ' E '], 'areas_m2': [], 'dimensoes': []}
+{'linha': 'se) 34/0821 | JEFFERSON | RODRIGO AQUINO GAS-16/31', 'ambientes': ['JEFFERSON', 'RODRIGO AQUINO GAS'], 'areas_m2': [], 'dimensoes': []}
