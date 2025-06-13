@@ -1,2 +1,33 @@
-*.deb
+# ===== AMBIENTES VIRTUAIS =====
 venv/
+env/
+.venv/
+.env/
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ===== LOGS =====
+*.log
+logs/
+
+# ===== IDEs =====
+.vscode/
+.idea/
+*.swp
+
+# ===== SISTEMA =====
+.DS_Store
+Thumbs.db
+
+# ===== SEGURANÇA =====
+.env
+*.pem
+*.key
