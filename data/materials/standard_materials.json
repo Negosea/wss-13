@@ -1,0 +1,24 @@
+{
+  "concrete": {
+    "C20": {"fck": 20, "slump": 10},
+    "C25": {"fck": 25, "slump": 10},
+    "C30": {"fck": 30, "slump": 10},
+    "C35": {"fck": 35, "slump": 10},
+    "C40": {"fck": 40, "slump": 10},
+    "C50": {"fck": 50, "slump": 10}
+  },
+  "steel_bars": {
+    "diameters": [5.0, 6.3, 8.0, 10.0, 12.5, 16.0, 20.0, 25.0, 32.0, 40.0],
+    "grades": ["CA25", "CA50", "CA60"]
+  },
+  "blocks": {
+    "ceramic": {
+      "9x19x19": {"width": 9, "height": 19, "length": 19, "weight": 2.5},
+      "14x19x29": {"width": 14, "height": 19, "length": 29, "weight": 4.5}
+    },
+    "concrete": {
+      "14x19x39": {"width": 14, "height": 19, "length": 39, "weight": 10.5},
+      "19x19x39": {"width": 19, "height": 19, "length": 39, "weight": 13.0}
+    }
+  }
+}
