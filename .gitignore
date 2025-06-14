@@ -31,3 +31,9 @@ Thumbs.db
 .env
 *.pem
 *.key
+reports/
+*~
+*.pyc
+__pycache__/
+.env
+venv/
