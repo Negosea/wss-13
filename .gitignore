@@ -37,3 +37,7 @@ reports/
 __pycache__/
 .env
 venv/
+reports/
+*~
+*.pyc
+__pycache__/
