@@ -1,0 +1,40 @@
+{
+    "temp_patterns": [
+        "*.tmp",
+        "*.temp",
+        "*.cache",
+        "*.pyc",
+        ".DS_Store",
+        "Thumbs.db",
+        "*.swp",
+        "*.swo",
+        "*~"
+    ],
+    "temp_dirs": [
+        "__pycache__",
+        ".pytest_cache",
+        ".mypy_cache",
+        "node_modules",
+        ".coverage",
+        "htmlcov",
+        ".tox"
+    ],
+    "archive_after_days": 30,
+    "log_retention_days": 90,
+    "excluded_dirs": [
+        ".git",
+        "venv",
+        "__pycache__",
+        ".vscode",
+        ".idea"
+    ],
+    "duplicate_check_extensions": [
+        ".py",
+        ".json",
+        ".txt",
+        ".md",
+        ".csv",
+        ".log"
+    ],
+    "min_file_size_for_dup_check": 100
+}

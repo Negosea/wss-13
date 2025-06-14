@@ -1,0 +1,84 @@
+name: Project Organization Check
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * 0'  # Executa semanalmente aos domingos
+  workflow_dispatch:  # Permite execução manual
+
+jobs:
+  organize:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Make scripts executable
+      run: |
+        chmod +x check_organization.sh
+        chmod +x organize.sh
+    
+    - name: Run organization check (before)
+      id: check_before
+      run: |
+        ./check_organization.sh > check_before.log
+        echo "score_before=$(grep 'Score de Organização:' check_before.log | grep -o '[0-9]\+')" >> $GITHUB_OUTPUT
+    
+    - name: Run organizer (dry-run first)
+      run: ./organize.sh --dry-run --verbose
+      continue-on-error: true
+    
+    - name: Run organizer (actual)
+      id: organize
+      run: |
+        ./organize.sh --verbose > organize.log 2>&1
+        echo "exit_code=$?" >> $GITHUB_OUTPUT
+      continue-on-error: true
+    
+    - name: Run organization check (after)
+      id: check_after
+      run: |
+        ./check_organization.sh > check_after.log
+        echo "score_after=$(grep 'Score de Organização:' check_after.log | grep -o '[0-9]\+')" >> $GITHUB_OUTPUT
+    
+    - name: Collect metrics
+      run: |
+        python3 scripts/collect_metrics.py \
+          --score-before ${{ steps.check_before.outputs.score_before }} \
+          --score-after ${{ steps.check_after.outputs.score_after }} \
+          --organize-exit-code ${{ steps.organize.outputs.exit_code }}
+    
+    - name: Generate report
+      run: python3 scripts/generate_report.py
+    
+    - name: Upload reports
+      uses: actions/upload-artifact@v3
+      with:
+        name: organization-reports
+        path: |
+          reports/*.md
+          reports/*.json
+          check_*.log
+          organize.log
+    
+    - name: Comment PR (if applicable)
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const fs = require('fs');
+          const report = fs.readFileSync('reports/latest_report.md', 'utf8');
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: report
+          });

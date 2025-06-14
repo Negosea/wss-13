@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-06-14T12:10:37.444964",
+  "date": "2025-06-14",
+  "time": "12:10:37",
+  "score_before": 75,
+  "score_after": 85,
+  "score_improvement": 10,
+  "organize_exit_code": 0,
+  "organize_success": true,
+  "untracked_files": 16,
+  "branch": "main",
+  "project_size_bytes": 2449065803,
+  "project_size_mb": 2335.61,
+  "temp_files_size_bytes": 18494,
+  "temp_files_size_mb": 0.02,
+  "temp_files_count": 0,
+  "large_files_count": 0,
+  "empty_dirs_count": 0,
+  "duplicate_files_count": 0
+}

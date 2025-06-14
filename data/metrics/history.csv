@@ -1,0 +1,2 @@
+timestamp,date,time,score_before,score_after,score_improvement,organize_exit_code,organize_success,untracked_files,branch,project_size_bytes,project_size_mb,temp_files_size_bytes,temp_files_size_mb,temp_files_count,large_files_count,empty_dirs_count,duplicate_files_count
+2025-06-14T12:10:37.444964,2025-06-14,12:10:37,75,85,10,0,True,16,main,2449065803,2335.61,18494,0.02,0,0,0,0
